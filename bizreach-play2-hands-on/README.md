@@ -4,6 +4,15 @@
 
 ## 実行方法
 
+データベースの起動
+
+```
+$ cd slick-codegen/h2/
+$ sh start.sh
+```
+
+アプリケーションの起動
+
 ```
 $ cd play2-hands-on/
 $ ./activator run
