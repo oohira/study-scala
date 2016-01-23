@@ -13,3 +13,8 @@ GET     /user/edit                  controllers.UserController.edit(id: Option[L
 POST    /user/create                controllers.UserController.create
 POST    /user/update                controllers.UserController.update
 POST    /user/remove/:id            controllers.UserController.remove(id: Long)
+
+GET     /json/list                  controllers.JsonController.list
+POST    /json/create                controllers.JsonController.create
+POST    /json/update                controllers.JsonController.update
+POST    /json/remove/:id            controllers.JsonController.remove(id: Long)
